@@ -8,3 +8,11 @@ html{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
 }
+
+:root {
+    --color1: #027368;
+    --color2: #025951;
+    --color3: #C5D9D9;
+    --color4: #014040;
+    --color5: #7BA1A6;
+}
