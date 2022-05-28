@@ -1,0 +1,58 @@
+.carpeta {
+    width: 60%;
+    height: 60%;
+    background-color: var(--color4);
+    position: absolute;
+    display: none;
+    align-self: center;
+    flex-wrap: wrap;
+    left: 0.5rem;
+    border-radius: 15px;
+}
+
+.carpeta-vista {
+    display: flex;
+}
+
+.carpetas{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carpetas div{
+    width: 60%;
+    height: 7%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carpeta div img{ 
+        height: 100%;
+}
+
+
+.interaccion {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.interaccion div {
+    width:3.5%;
+    height: 50%;
+    border-radius: 5px;
+    margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.interaccion div img {
+    width: 100%;
+    height: 100%;
+}
